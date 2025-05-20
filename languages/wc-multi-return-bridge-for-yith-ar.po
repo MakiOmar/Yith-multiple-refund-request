@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: WC Multi Return Bridge for YITH\n"
+"POT-Creation-Date: 2025-05-20 16:11+0300\n"
+"PO-Revision-Date: 2025-05-20 16:15+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-multi-return-bridge-for-yith.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-wc-multi-return-bridge.php:54
+msgid "Please select at least one product to return."
+msgstr "الرجاء اختيار منتج واحد على الأقل للإرجاع."
+
+#: class-wc-multi-return-bridge.php:55
+msgid "Please enter a valid quantity for selected item."
+msgstr "الرجاء إدخال كمية صالحة للعنصر المحدد."
+
+#: class-wc-multi-return-bridge.php:56
+msgid "Return requests submitted successfully."
+msgstr "تم تقديم طلبات الإرجاع بنجاح."
+
+#: class-wc-multi-return-bridge.php:57
+msgid "Some requests failed. Please try again."
+msgstr "فشل بعض الطلبات. الرجاء المحاولة مرة أخرى."
+
+#: class-wc-multi-return-bridge.php:58
+msgid "An error occurred. Please try again."
+msgstr "حدث خطأ. الرجاء المحاولة مرة أخرى."
+
+#: class-wc-multi-return-bridge.php:79
+msgid "Return system is currently unavailable."
+msgstr "نظام الإرجاع غير متاح حالياً."
+
+#: class-wc-multi-return-bridge.php:93
+msgid "Request Product Returns"
+msgstr "طلب إرجاع المنتجات"
+
+#: class-wc-multi-return-bridge.php:97
+msgid "Your Existing Return Requests"
+msgstr "طلبات الإرجاع الحالية"
+
+#: class-wc-multi-return-bridge.php:102 class-wc-multi-return-bridge.php:133
+msgid "Product"
+msgstr "المنتج"
+
+#: class-wc-multi-return-bridge.php:103
+msgid "Requested Qty"
+msgstr "الكمية المطلوبة"
+
+#: class-wc-multi-return-bridge.php:104 class-wc-multi-return-bridge.php:136
+msgid "Reason"
+msgstr "السبب"
+
+#: class-wc-multi-return-bridge.php:105
+msgid "Status"
+msgstr "الحالة"
+
+#: class-wc-multi-return-bridge.php:106
+msgid "Date"
+msgstr "التاريخ"
+
+#: class-wc-multi-return-bridge.php:126
+msgid "New Return Request"
+msgstr "طلب إرجاع جديد"
+
+#: class-wc-multi-return-bridge.php:134
+msgid "Qty"
+msgstr "الكمية"
+
+#: class-wc-multi-return-bridge.php:135
+msgid "Return Qty"
+msgstr "كمية الإرجاع"
+
+#: class-wc-multi-return-bridge.php:137
+msgid "Select"
+msgstr "اختر"
+
+#: class-wc-multi-return-bridge.php:167
+msgid "Size:"
+msgstr "الحجم:"
+
+#: class-wc-multi-return-bridge.php:172
+msgid "Already requested"
+msgstr "تم طلبه مسبقاً"
+
+#: class-wc-multi-return-bridge.php:186 class-wc-multi-return-bridge.php:197
+msgid "N/A"
+msgstr "غير متاح"
+
+#: class-wc-multi-return-bridge.php:194
+msgid "Reason for return"
+msgstr "سبب الإرجاع"
+
+#: class-wc-multi-return-bridge.php:219
+msgid "Submit Returns"
+msgstr "إرسال طلبات الإرجاع"
+
+#: class-wc-multi-return-bridge.php:223
+msgid "No refundable items available in this order."
+msgstr "لا توجد عناصر قابلة للإرجاع في هذا الطلب."
+
+#: class-wc-multi-return-bridge.php:269 class-wc-multi-return-bridge.php:283
+msgid "Deleted product"
+msgstr "منتج محذوف"
+
+#: class-wc-multi-return-bridge.php:318 class-wc-multi-return-bridge.php:393
+msgid "No reason provided"
+msgstr "لم يتم تقديم سبب"
+
+#: class-wc-multi-return-bridge.php:330
+msgid "Authentication required."
+msgstr "يتطلب المصادقة."
+
+#: class-wc-multi-return-bridge.php:337
+msgid "Missing order or items."
+msgstr "الطلب أو العناصر مفقودة."
+
+#: class-wc-multi-return-bridge.php:342
+msgid "Invalid order."
+msgstr "طلب غير صالح."
+
+#: class-wc-multi-return-bridge.php:353
+msgid "Return requests processed."
+msgstr "تم معالجة طلبات الإرجاع."
+
+#: class-wc-multi-return-bridge.php:434
+msgid "You cannot submit new requests on this Live Demo. Click on Launch Admin Demo to unblock this and fully test the plugin."
+msgstr "لا يمكنك تقديم طلبات جديدة في النسخة التجريبية الحية. انقر على تشغيل النسخة التجريبية للإدارة لفتح هذه الميزة واختبار الإضافة بالكامل."
+
+#: class-wc-multi-return-bridge.php:443 class-wc-multi-return-bridge.php:453
+msgctxt "Exception description. Technical error message."
+msgid "Exception on submitting request: missing data."
+msgstr "استثناء عند تقديم الطلب: بيانات مفقودة."
+
+#: class-wc-multi-return-bridge.php:462
+msgctxt "Exception description. Technical error message."
+msgid "Exception on submitting request: quantity limit exceeded."
+msgstr "استثناء عند تقديم الطلب: تجاوز حد الكمية."
+
+#. translators: %s: Request ID
+#: class-wc-multi-return-bridge.php:533
+#, php-format
+msgid "Request #%s submitted successfully"
+msgstr "تم تقديم الطلب #%s بنجاح"
+
+#: class-wc-multi-return-bridge.php:591
+msgid "You must be logged in to submit return requests."
+msgstr "يجب تسجيل الدخول لتقديم طلبات الإرجاع."
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:56
+msgid "View details"
+msgstr "عرض التفاصيل"
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr "مزيد من المعلومات حول %s"
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr "التحقق من التحديثات"
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "الإضافة %s محدثة."
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "يتوفر إصدار جديد من الإضافة %s."
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "تعذر تحديد ما إذا كانت هناك تحديثات متاحة لـ %s."
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "حالة مدقق التحديثات غير معروفة \"%s\""
+
+#: plugin-update-checker/Puc/v5p5/Vcs/PluginUpdateChecker.php:113
+msgid "There is no changelog available."
+msgstr "لا يوجد سجل تغييرات متاح."
+
+#. Plugin Name of the plugin/theme
+msgid "WC Multi Return Bridge for YITH"
+msgstr "جسر الإرجاع المتعدد لـ WooCommerce لـ YITH"
+
+#. Description of the plugin/theme
+msgid "Allows customers to request multiple product returns per order integrated with YITH Advanced Refund System."
+msgstr "يسمح للعملاء بطلب إرجاع متعدد للمنتجات لكل طلب متكامل مع نظام الاسترداد المتقدم من YITH."
+
+#. Author of the plugin/theme
+msgid "Makiomar"
+msgstr "ماكيومار"

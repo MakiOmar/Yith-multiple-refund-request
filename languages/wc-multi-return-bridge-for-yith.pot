@@ -1,0 +1,218 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WC Multi Return Bridge for YITH\n"
+"POT-Creation-Date: 2025-05-20 16:11+0300\n"
+"PO-Revision-Date: 2025-05-20 16:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-multi-return-bridge-for-yith.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-wc-multi-return-bridge.php:54
+msgid "Please select at least one product to return."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:55
+msgid "Please enter a valid quantity for selected item."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:56
+msgid "Return requests submitted successfully."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:57
+msgid "Some requests failed. Please try again."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:58
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:79
+msgid "Return system is currently unavailable."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:93
+msgid "Request Product Returns"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:97
+msgid "Your Existing Return Requests"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:102 class-wc-multi-return-bridge.php:133
+msgid "Product"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:103
+msgid "Requested Qty"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:104 class-wc-multi-return-bridge.php:136
+msgid "Reason"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:105
+msgid "Status"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:106
+msgid "Date"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:126
+msgid "New Return Request"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:134
+msgid "Qty"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:135
+msgid "Return Qty"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:137
+msgid "Select"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:167
+msgid "Size:"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:172
+msgid "Already requested"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:186 class-wc-multi-return-bridge.php:197
+msgid "N/A"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:194
+msgid "Reason for return"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:219
+msgid "Submit Returns"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:223
+msgid "No refundable items available in this order."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:269 class-wc-multi-return-bridge.php:283
+msgid "Deleted product"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:318 class-wc-multi-return-bridge.php:393
+msgid "No reason provided"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:330
+msgid "Authentication required."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:337
+msgid "Missing order or items."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:342
+msgid "Invalid order."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:353
+msgid "Return requests processed."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:434
+msgid ""
+"You cannot submit new requests on this Live Demo. Click on Launch Admin Demo "
+"to unblock this and fully test the plugin."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:443 class-wc-multi-return-bridge.php:453
+msgctxt "Exception description. Technical error message."
+msgid "Exception on submitting request: missing data."
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:462
+msgctxt "Exception description. Technical error message."
+msgid "Exception on submitting request: quantity limit exceeded."
+msgstr ""
+
+#. translators: %s: Request ID
+#: class-wc-multi-return-bridge.php:533
+#, php-format
+msgid "Request #%s submitted successfully"
+msgstr ""
+
+#: class-wc-multi-return-bridge.php:591
+msgid "You must be logged in to submit return requests."
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:56
+msgid "View details"
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: plugin-update-checker/Puc/v5p5/Vcs/PluginUpdateChecker.php:113
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WC Multi Return Bridge for YITH"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows customers to request multiple product returns per order integrated "
+"with YITH Advanced Refund System."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Makiomar"
+msgstr ""
