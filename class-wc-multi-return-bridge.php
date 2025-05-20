@@ -69,14 +69,10 @@ class WC_Multi_Return_Bridge {
 	public function render_return_interface( $order_id ) {
 		$order       = wc_get_order( $order_id );
 		$allowed_for = array(
-			'completed',
-			'wc-completed',
-			'processing',
-			'wc-processing',
-			'mark_was-shipped',
-			'mark_international',
-			'mark_received',
-			'mark_ship-customstatus',
+			'wc-was-shipped',
+			'wc-international-shi',
+			'wc-received',
+			'wc-ship-customstatus',
 		);
 		if ( ! $order || ! in_array( $order->get_status(), $allowed_for, true ) ) {
 			return;
