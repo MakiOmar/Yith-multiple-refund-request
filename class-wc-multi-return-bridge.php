@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 // phpcs:disable Squiz.Commenting.FunctionCommentThrowTag.WrongNumber,WordPress.Security.NonceVerification.Missing,Squiz.Commenting.FunctionCommentThrowTag.Missing
-// phpcs:disable WordPress.DB.SlowDBQuery.slow_db_query_meta_value, WordPress.PHP.DevelopmentFunctions.error_log_error_log
+// phpcs:disable WordPress.DB.SlowDBQuery.slow_db_query_meta_value, WordPress.PHP.DevelopmentFunctions.error_log_error_log, Squiz.Commenting.FunctionCommentThrowTag.WrongNumber
 /**
  * Class WC_Multi_Return_Bridge
  */
@@ -395,21 +395,23 @@ class WC_Multi_Return_Bridge {
 			return false;
 		}
 	}
+	// phpcs:disable Squiz.Commenting.FunctionCommentThrowTag.WrongNumber,WordPress.Security.NonceVerification.Missing
 	/** Submit request from POST
 	 *
 	 * @throws Exception Cannot submit messages (demo mode or missing data).
 	 * @throws YITH_Upload_Exception Fail on upload.
 	 */
 	public function submit_request() {
-		// Create the request object with all $_POST data and save.
-		$order_id    = ! empty( $_POST['ywcars_form_order_id'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_order_id'] ) ) : false;
-		$whole_order = ! empty( $_POST['ywcars_form_whole_order'] ) ? $_POST['ywcars_form_whole_order'] : false; // phpcs:ignore.
-		$product_id  = ! empty( $_POST['ywcars_form_product_id'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_product_id'] ) ) : false;
-		$item_id     = ! empty( $_POST['ywcars_form_item_id'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_item_id'] ) ) : false;
-		$qty         = ! empty( $_POST['ywcars_form_qty'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_qty'] ) ) : false;
-		$max_qty     = ! empty( $_POST['ywcars_form_max_qty'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_max_qty'] ) ) : false;
-		$qty_total   = ! empty( $_POST['ywcars_form_qty_total'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_qty_total'] ) ) : false;
-		$line_total  = ! empty( $_POST['ywcars_form_line_total'] ) ? sanitize_text_field( wp_unslash( $_POST['ywcars_form_line_total'] ) ) : false;
+		$_req = $_POST;
+		// Create the request object with all $_req data and save.
+		$order_id    = ! empty( $_req['ywcars_form_order_id'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_order_id'] ) ) : false;
+		$whole_order = ! empty( $_req['ywcars_form_whole_order'] ) ? $_req['ywcars_form_whole_order'] : false; // phpcs:ignore.
+		$product_id  = ! empty( $_req['ywcars_form_product_id'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_product_id'] ) ) : false;
+		$item_id     = ! empty( $_req['ywcars_form_item_id'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_item_id'] ) ) : false;
+		$qty         = ! empty( $_req['ywcars_form_qty'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_qty'] ) ) : false;
+		$max_qty     = ! empty( $_req['ywcars_form_max_qty'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_max_qty'] ) ) : false;
+		$qty_total   = ! empty( $_req['ywcars_form_qty_total'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_qty_total'] ) ) : false;
+		$line_total  = ! empty( $_req['ywcars_form_line_total'] ) ? sanitize_text_field( wp_unslash( $_req['ywcars_form_line_total'] ) ) : false;
 
 		try {
 			$demo = apply_filters( 'ywcars_demo_mode', false );
@@ -501,10 +503,10 @@ class WC_Multi_Return_Bridge {
 			$request->save();
 
 			// Save the request message with their meta data.
-			if ( $request->exists() && isset( $_POST['ywcars_form_reason'] ) ) {
+			if ( $request->exists() && isset( $_req['ywcars_form_reason'] ) ) {
 				$message = new YITH_Request_Message();
 
-				$this->new_message( $message, $request->ID, sanitize_text_field( wp_unslash( $_POST['ywcars_form_reason'] ) ) );
+				$this->new_message( $message, $request->ID, sanitize_text_field( wp_unslash( $_req['ywcars_form_reason'] ) ) );
 			}
 
 			if ( 'yes' === get_option( 'yith_wcars_automatic_refunds' ) && apply_filters( 'yith_ywcars_automatic_refunds_for_virtual_products', ! self::request_has_physical_products( $request ), $request ) ) {
