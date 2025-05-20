@@ -157,10 +157,22 @@ class WC_Multi_Return_Bridge {
 									<tr class="<?php echo $is_requested ? 'item-requested' : ''; ?>">
 										<td>
 											<?php echo esc_html( $product->get_name() ); ?>
+
+											<?php
+												// عرض الحجم إذا كان متاحاً.
+												$size = $product->is_type( 'variation' ) ? $product->get_attribute( 'pa_الحجم' ) : '';
+											if ( $size ) :
+												?>
+												<div class="product-size">
+													<small><?php echo esc_html__( 'Size:', 'wc-multi-return' ) . ' ' . esc_html( $size ); ?></small>
+												</div>
+											<?php endif; ?>
+
 											<?php if ( $is_requested ) : ?>
 												<span class="already-requested-badge"><?php esc_html_e( 'Already requested', 'wc-multi-return' ); ?></span>
 											<?php endif; ?>
 										</td>
+
 										<td><?php echo esc_html( $item->get_quantity() ); ?></td>
 										<td>
 											<?php if ( $max_qty > 0 ) : ?>
