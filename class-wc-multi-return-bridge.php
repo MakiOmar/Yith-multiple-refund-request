@@ -305,6 +305,7 @@ class WC_Multi_Return_Bridge {
 
 		return esc_html__( 'No reason provided', 'wc-multi-return' );
 	}
+	// phpcs:disable Squiz.Commenting.FunctionCommentThrowTag.Missing
 	/**
 	 * Handle AJAX return request.
 	 */
@@ -371,7 +372,7 @@ class WC_Multi_Return_Bridge {
 		$request_data = array(
 			'action'                  => 'ywcars_submit_request',
 			'ywcars_form_order_id'    => $order->get_id(),
-			'ywcars_form_product_id'  => $order_item->get_product_id(),
+			'ywcars_form_product_id'  => $order_item->get_product()->get_id(),
 			'ywcars_form_item_id'     => $item_id,
 			'ywcars_form_qty'         => $qty,
 			'ywcars_form_qty_total'   => $max_qty,
