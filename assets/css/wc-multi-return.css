@@ -1,0 +1,96 @@
+.woocommerce-MyAccount-content .wc-multi-return-container {
+	 margin-top: 2em;
+}
+ .woocommerce-MyAccount-content .wc-multi-return-container h2, .woocommerce-MyAccount-content .wc-multi-return-container h3 {
+	 margin-bottom: 1em;
+	 color: #333;
+}
+ .woocommerce-MyAccount-content .table-responsive {
+	 overflow-x: auto;
+	 margin-bottom: 2em;
+}
+ .woocommerce-MyAccount-content .wc-multi-return-requests-table, .woocommerce-MyAccount-content .wc-multi-return-products-table {
+	 width: 100%;
+	 border-collapse: collapse;
+	 margin-bottom: 1.5em;
+	 border: 1px solid #f5b144;
+	/* outer border */
+	 background-color: #fff !important;
+}
+ .woocommerce-MyAccount-content .wc-multi-return-requests-table th, .woocommerce-MyAccount-content .wc-multi-return-products-table th {
+	 background-color: #361347;
+	 color: #fff;
+	 padding: 12px 15px;
+	 text-align: left;
+	 font-weight: 600;
+	 border: 1px solid #f5b144;
+}
+ .woocommerce-MyAccount-content .wc-multi-return-requests-table td, .woocommerce-MyAccount-content .wc-multi-return-products-table td {
+	 padding: 12px 15px;
+	 border: 1px solid #f5b144;
+	 vertical-align: middle;
+}
+ .woocommerce-MyAccount-content .wc-multi-return-products-table tr.item-requested {
+	 background-color: #f9f9f9;
+	 opacity: 0.8;
+}
+ .woocommerce-MyAccount-content .wc-multi-return-products-table tr.item-requested td {
+	 color: #999;
+}
+ .woocommerce-MyAccount-content .already-requested-badge {
+	 display: inline-block;
+	 background: #f0f0f0;
+	 color: #666;
+	 font-size: 0.8em;
+	 padding: 2px 6px;
+	 border-radius: 3px;
+	 margin-left: 8px;
+}
+ .woocommerce-MyAccount-content .request-status {
+	 display: inline-block;
+	 padding: 3px 8px;
+	 border-radius: 3px;
+	 font-size: 0.9em;
+	 font-weight: 500;
+}
+ .woocommerce-MyAccount-content .request-status.pending {
+	 background-color: #f8dda7;
+	 color: #94660c;
+}
+ .woocommerce-MyAccount-content .request-status.approved {
+	 background-color: #c6e1c6;
+	 color: #5b841b;
+}
+ .woocommerce-MyAccount-content .request-status.rejected {
+	 background-color: #eba3a3;
+	 color: #761919;
+}
+ .woocommerce-MyAccount-content .request-status.completed {
+	 background-color: #c8d7e1;
+	 color: #2e4453;
+}
+ .woocommerce-MyAccount-content .return-qty-input, .woocommerce-MyAccount-content .return-reason-input {
+	 width: 100%;
+	 padding: 8px;
+	 border: 1px solid #ddd;
+	 border-radius: 3px;
+}
+ .woocommerce-MyAccount-content .return-submit-wrapper {
+	 margin-top: 1.5em;
+	 text-align: right;
+}
+ .woocommerce-MyAccount-content .no-refundable-items {
+	 padding: 1em;
+	 background: #f8f8f8;
+	 border: 1px solid #e1e1e1;
+	 text-align: center;
+	 color: #666;
+}
+ .woocommerce-MyAccount-content .checkbox-disabled {
+	 color: #ccc;
+}
+ .woocommerce-MyAccount-content .no-qty-available, .woocommerce-MyAccount-content .no-reason-available {
+	 color: #999;
+	 font-style: italic;
+}
+ 
