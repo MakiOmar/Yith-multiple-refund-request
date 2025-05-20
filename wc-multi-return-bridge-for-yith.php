@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WC Multi Return Bridge for YITH
  * Description: Allows customers to request multiple product returns per order integrated with YITH Advanced Refund System.
- * Version: 1.0.12
+ * Version: 1.0.13
  * Author: Makiomar
  * Requires Plugins: WooCommerce, YITH Advanced Refund System
  * Text Domain: wc-multi-return

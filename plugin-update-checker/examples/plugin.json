@@ -1,6 +1,6 @@
  {
  	"name" : "WC Multi Return Bridge for YITH",
- 	"version" : "1.0.12",
+ 	"version" : "1.0.13",
  	"download_url" : "https://github.com/MakiOmar/Yith-multiple-refund-request/archive/refs/heads/main.zip",
  	"sections" : {
  		"description" : "Allows customers to request multiple product returns per order integrated with YITH Advanced Refund System."
