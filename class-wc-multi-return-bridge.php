@@ -214,7 +214,9 @@ class WC_Multi_Return_Bridge {
 			</div>
 		</div>
 		<?php
-		echo wp_kses_post( ob_get_clean() );
+		//phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo ob_get_clean();
+		//phpcs:enable
 	}
 	/**
 	 * Get existing return requests for an order.

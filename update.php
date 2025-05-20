@@ -11,9 +11,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$bridge_update_checker = Puc_v4_Factory::buildUpdateChecker(
+$bridge_update_checker = PucFactory::buildUpdateChecker(
 	'https://github.com/MakiOmar/Yith-multiple-refund-request/',
-	__FILE__,
+	AWYCRB_FILE,
 	AWYCRB_PLUGIN_SLUG
 );
 
