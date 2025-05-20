@@ -164,7 +164,7 @@ class WC_Multi_Return_Bridge {
 											if ( $size ) :
 												?>
 												<div class="product-size">
-													<small><?php echo esc_html__( 'Size:', 'wc-multi-return' ) . ' ' . esc_html( $size ); ?></small>
+													<small><?php echo esc_html__( 'Size:', 'wc-multi-return' ) . ' ' . esc_html( urldecode( $size ) ); ?></small>
 												</div>
 											<?php endif; ?>
 
