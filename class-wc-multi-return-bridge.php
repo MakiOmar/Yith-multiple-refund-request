@@ -76,6 +76,7 @@ class WC_Multi_Return_Bridge {
 			'mark_was-shipped',
 			'mark_international',
 			'mark_received',
+			'mark_ship-customstatus',
 		);
 		if ( ! $order || ! in_array( $order->get_status(), $allowed_for, true ) ) {
 			return;
