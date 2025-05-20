@@ -69,7 +69,7 @@ class WC_Multi_Return_Bridge {
 	public function render_return_interface( $order_id ) {
 		$order = wc_get_order( $order_id );
 
-		if ( ! $order || ! in_array( $order->get_status(), array( 'completed', 'processing' ), true ) ) {
+		if ( ! $order || ! in_array( $order->get_status(), array( 'completed', 'wc-completed', 'processing', 'wc-processing' ), true ) ) {
 			return;
 		}
 
