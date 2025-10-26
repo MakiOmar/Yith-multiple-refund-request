@@ -1,3 +1,6 @@
+.woocommerce-table__product-name .ywcars_button_refund{
+	display:none!important
+}
 .woocommerce-MyAccount-content .wc-multi-return-container {
 	 margin-top: 2em;
 }
